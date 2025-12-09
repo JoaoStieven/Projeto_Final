@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "rootDir": "./ts",
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "composite": true,
+    "outDir": "./js"
+  },
+  "references": [{ "path": "../shared" }]
+}

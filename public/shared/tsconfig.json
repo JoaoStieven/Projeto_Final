@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "strict": true,
+        "composite": true,
+        "verbatimModuleSyntax": true,
+        "declaration": true,
+        "allowJs": false,
+        "outDir": "./dist"
+    },
+    "exclude": ["dist"]
+}

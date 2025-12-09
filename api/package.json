@@ -1,0 +1,16 @@
+{
+    "name": "@ponto-certo/api",
+    "type": "module",
+    "version": "1.0.0",
+    "exports": {
+        "./*": {
+            "types": "./dist/*/index.d.ts",
+            "import": "./dist/*/index.js",
+            "node": "./dist/*/index.js",
+            "default": "./dist/*/index.js"
+        }
+    },
+    "dependencies": {
+        "@ponto-certo/shared": "file:../public/shared"
+    }
+}

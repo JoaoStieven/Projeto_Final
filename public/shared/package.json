@@ -1,0 +1,13 @@
+{
+    "name": "@ponto-certo/shared",
+    "version": "1.0.0",
+    "type": "module",
+    "exports": {
+        "./*": {
+            "types": "./dist/*/index.d.ts",
+            "import": "./dist/*/index.js",
+            "node": "./dist/*/index.js",
+            "default": "./dist/*/index.js"
+        }
+    }
+}

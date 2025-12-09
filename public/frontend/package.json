@@ -1,0 +1,12 @@
+{
+    "name": "@ponto-certo/frontend",
+    "type": "module",
+    "exports": {
+        "./*": {
+            "types": "./js/*.d.ts",
+            "import": "./js/*.js",
+            "node": "./js/*.js",
+            "default": "./js/*.js"
+        }
+    }
+}

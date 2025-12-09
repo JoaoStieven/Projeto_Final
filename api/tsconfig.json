@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "strict": true,
+        "composite": true,
+        "verbatimModuleSyntax": true,
+        "declaration": true,
+        "outDir": "./dist",
+        "paths": {
+            "@ponto-certo/api/contract/*": ["./contract/*.d.ts"],
+            "@ponto-certo/shared/contract/*": ["../shared/contract/*.d.ts"]
+        }
+    },
+    "references": [{ "path": "../shared" }]
+}

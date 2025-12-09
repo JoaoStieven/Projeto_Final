@@ -1,0 +1,24 @@
+{
+    "name": "ponto-certo",
+    "type": "module",
+    "engines": {
+        "node": "24.x"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@ponto-certo/api": "file:api",
+        "@ponto-certo/frontend": "file:public/frontend",
+        "@ponto-certo/shared": "file:public/shared",
+        "@supabase/supabase-js": "^2.86.2",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.6",
+        "typescript": "^5.9.3"
+    }
+}
