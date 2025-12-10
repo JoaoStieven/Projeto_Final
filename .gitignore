@@ -2,4 +2,4 @@ node_modules
 .env
 .prettierignore
 package-lock.json
-.vscode
+.vscode 
