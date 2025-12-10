@@ -5,7 +5,7 @@
         "node": "24.x"
     },
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js" 
     },
     "dependencies": {
         "@ponto-certo/api": "file:api",

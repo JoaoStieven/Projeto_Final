@@ -62,4 +62,4 @@ export class MemoryDatabase implements Database {
 
         return deleted;
     };
-};
+}; 
