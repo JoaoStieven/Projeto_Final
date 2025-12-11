@@ -48,6 +48,7 @@ horas_extras — horas acima de 8 (caso haja) (gerada automaticamente)
 | Método HTTP | URL          | O que faz                                                              | Tabelas |
 | ----------- | ------------ | ---------------------------------------------------------------------- | ------- |
 | GET         | /ponto/:data | Busca o ponto em andamento do funcionário, caso haja um                | ponto   |
-| POST        | /ponto       | Cadastra um novo ponto, caso nenhum ponto tenha sido cadastrado no dia | ponto   |
+| POST        | /ponto       | Cadastra um novo ponto                                                 | ponto   |
 | PUT         | /ponto/:data | Atualiza o ponto cadastrado no dia, caso um tenha sido cadastrado      | ponto   |
+
 
